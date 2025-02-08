@@ -1,0 +1,123 @@
+:root {
+    font-size: 62.5%;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Sans-Serif;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #667799;
+}
+
+#logoPng {
+    width: 4.8rem;
+}
+
+#div0 {
+    width: 270px;
+    height: 200px;
+}
+
+#div1 {
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn1 {
+    outline: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    font-size: 22px;
+    box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s linear;
+}
+
+#btn2 {
+    outline: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    font-size: 22px;
+    box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s linear;
+}
+
+#btn1:hover {
+    background-color: red;
+    color: yellow;
+    border: 2px solid;
+}
+
+#btn2:hover {
+    background-color: yellow;
+    color: red;
+    border: 2px solid;
+}
+
+#myH3 {
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#codeDisplay {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-size: 22px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#copy {
+    display: none;
+    transition: all 2s linear;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    border: 1px solid black;
+    width: 180px;
+    padding: 2px 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
