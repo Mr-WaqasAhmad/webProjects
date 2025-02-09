@@ -4,13 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Discover Waqas Ahmed's web development portfolio, featuring HTML, CSS, JavaScript & responsive design expertise.">
-    <meta name="keywords"
-    content="Waqas Ahmed, Web Developer, HTML, CSS, JavaScript, Frontend Developer, Web Development, Digital Clock, Gradient Generator, Todo App, Web Projects, Certificates, Online Portfolio, Responsive Design, JavaScript Projects, CodeLibr Certificate, MindLuster Certificate, Contact Waqas Ahmed">
+  <meta name="description" content="Waqas Ahmed's portfolio showcases web development expertise in HTML, CSS, JavaScript, and responsive design. Explore projects, certifications, and get in touch for collaborations.">
+  <meta name="keywords" content="Waqas Ahmed, web developer, HTML, CSS, JavaScript, frontend developer, web development, responsive design, online portfolio">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Waqas Ahmed">
-  <title>Waqas Ahmed’s Portfolio</title>
+  
+  <meta property="og:title" content="Waqas Ahmed's Portfolio">
+  <meta property="og:description" content="Waqas Ahmed's portfolio showcases web development expertise in HTML, CSS, JavaScript, and responsive design.">
+  <meta property="og:image" content="me.jpg">
+  <meta property="og:url" content="https://mr-waqasahmad.github.io/webProjects/">
+  <meta property="og:site_name" content="Waqas Ahmed's Portfolio">
+  <meta property="og:type" content="website">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Waqas Ahmed's Portfolio">
+  <meta name="twitter:description" content="Waqas Ahmed's portfolio showcases web development expertise in HTML, CSS, JavaScript, and responsive design.">
+  <meta name="twitter:image" content="me.jpg">
+
+  <title>Waqas Ahmed's Portfolio</title>
+  <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,9 +30,9 @@
   <div id="loadingGif"></div>
 
   <header class="Header">
-    <a href="#" id="logo"><img src="w.png" id="logoPng" alt="website logo"></a>
-    <img src="cross.png" id="cross" alt="Close Menu">
-    <img src="menu.png" id="menu" alt="Open Menu">
+    <a href="#" id="logo"><img src="w.png" id="logoPng" alt="Website Logo"></a>
+    <img src="cross.png" id="cross" alt="Close Menu Icon">
+    <img src="menu.png" id="menu" alt="Open Menu Icon">
 
     <nav id="navbar">
       <a href="#" id="link1" class="links">Home</a>
@@ -28,20 +40,14 @@
       <a href="#contact" id="link2" class="links">Contact Us</a>
     </nav>
   </header>
+
   <main>
-    <img src="me.jpg" loading="lazy" id="myPic" alt="Waqas Ahmad Picture">
-    <div class="">
-      <section>
-        <h1 class="H1">About Me</h1>
-        <p id="parano1">Hello, I'm Waqas Ahmed, a young and ambitious web developer with a passion for innovation. With
-          an age of 21+, I've already made my mark in the world of web development, having successfully completed
-          numerous small-scale projects that showcase my skills and creativity. These projects have not only honed my
-          technical skills but also fueled my desire to continuously learn and adapt to new technologies. In addition to
-          hands-on experience, I've also enhanced my skills through various online courses and apps, earning
-          certifications that demonstrate my expertise. Feel free to explore my portfolio on this page and discover the
-          amazing things I can do!</p>
-      </section>
-    </div>
+    <img src="waqas-ahmed-web-developer.jpg" loading="lazy" id="myPic" alt="Waqas Ahmad Picture">
+    <section>
+      <h1 class="H1">About Me</h1>
+      <p id="parano1">Hello, I'm Waqas Ahmed, a young and ambitious web developer with a passion for innovation. With an age of 21+, I've already made my mark in web development, having successfully completed numerous small-scale projects that showcase my skills and creativity. These projects have not only honed my technical skills but also fueled my desire to continuously learn and adapt to new technologies. In addition to hands-on experience, I've enhanced my skills through various online courses and apps, earning certifications that demonstrate my expertise. Feel free to explore my portfolio on this page and discover the amazing things I can do!</p>
+    </section>
+
     <section>
       <h2 id="projectsNames">Projects Names</h2>
       <ul id="list">
@@ -51,95 +57,52 @@
       </ul>
     </section>
   </main>
+
   <section>
     <h2 id="projectTwo" class="AllProject">(1) Gradient Generator</h2>
-    <p class="projectsPara">"Welcome to our Gradient Generator Tool! This tool allows you to generate random gradient
-      colors and copy the CSS code to use in your projects. Simply click on the color buttons to generate new colors,
-      and the CSS code will be updated automatically. You can also click on the code display area to copy the CSS code
-      to your clipboard. The tool also applies the generated gradient to the background of the page, so you can see how
-      it looks. Have fun experimenting with different colors and gradients!" <br><br><a
-        href="gradient.html" target="_blank" class="gamePlay">Start Web App</a> </p>
+    <p class="projectsPara">Welcome to our Gradient Generator Tool! This tool allows you to generate random gradient colors and copy the CSS code to use in your projects. Simply click on the color buttons to generate new colors, and the CSS code will be updated automatically. You can also click on the code display area to copy the CSS code to your clipboard. <br><br><a href="gradient.html" target="_blank" class="gamePlay">Start Web App</a></p>
   </section>
+
   <section>
     <h2 id="projectThree" class="AllProject">(2) Simple Clock</h2>
-    <p class="projectsPara"> "Welcome to our Live Digital Clock! This simple yet elegant clock displays the current time
-      in real-time, updating every second. The clock is displayed in a stylish and modern design, with a bold font and a
-      subtle text stroke effect. You can use this clock as a desktop widget or embed it into your website. The clock is
-      accurate and reliable, using the system's internal clock to ensure precise timekeeping. Enjoy having a live
-      digital clock on your screen!" <br><br><a href="clock.html" target="_blank" class="gamePlay">Check
-        Clock</a> </p>
+    <p class="projectsPara">Welcome to our Live Digital Clock! This simple yet elegant clock displays the current time in real-time, updating every second. The clock is displayed in a stylish and modern design. <br><br><a href="clock.html" target="_blank" class="gamePlay">Check Clock</a></p>
   </section>
+
   <section>
     <h2 id="projectFour" class="AllProject">(3) Todo App</h2>
-    <p class="projectsPara">"Welcome to our Todo App! This app allows you to create and manage your to-do lists
-      effortlessly. Simply type in a new task in the input field and click the 'Add To List' button to add it to your
-      list. Your tasks will be saved locally on your device, so you can access them offline anytime. You can also delete
-      tasks by clicking the 'Delete' button next to each task. If you try to add a duplicate task, the app will alert
-      you and prevent the duplication. Start organizing your tasks today with our simple and intuitive Todo App!"
-      <br><br><a href="todoNote.html" target="_blank" class="gamePlay">Try Todo App</a>
-    </p>
+    <p class="projectsPara">Welcome to our Todo App! This app allows you to create and manage your to-do lists effortlessly. Simply type in a new task and click the 'Add To List' button to add it to your list. Your tasks will be saved locally on your device. <br><br><a href="todoNote.html" target="_blank" class="gamePlay">Try Todo App</a></p>
   </section>
+
   <section>
     <h2 id="certificate" class="H2">Certificates</h2>
-    <p class="certificatePara"> <img src="CHtml.png" class="certificatesPng" alt="html certificate number 1">
-      "I am
-      thrilled to
-      announce that I have successfully obtained my HTML certification from CodeLibr! This achievement demonstrates my
-      dedication to developing a strong foundation in web development. With this certification, I possess the skills and
-      knowledge to create visually appealing and functional websites using HTML. I am excited to apply my newfound
-      expertise to build innovative and user-friendly web experiences for my users." </p>
+    <p class="certificatePara"><img src="CHtml.png" class="certificatesPng" alt="HTML certificate"> I have successfully obtained my HTML certification from CodeLibr!</p>
   </section>
+
   <section>
-    <p class="certificatePara"> <img src="mindlusterHtml5.jpg" class="certificatesPng"
-        alt="html certificate number 2">"I am
-      proud to announce that I have also earned my HTML certification from MindLuster! This additional credential
-      reinforces my expertise in HTML and demonstrates my commitment to staying up-to-date with the latest web
-      development technologies. With this certification, I have further solidified my skills in creating dynamic and
-      engaging websites using HTML. I am excited to leverage this knowledge to deliver high-quality web solutions for my
-      users." </p>
+    <p class="certificatePara"><img src="mindlusterHtml5.jpg" class="certificatesPng" alt="HTML certificate"> I have also earned my HTML certification from MindLuster.</p>
   </section>
+
   <section>
-    <p class="certificatePara"> <img src="cCss.png" loading="lazy" class="certificatesPng"
-        alt="css certificate number 1">"I
-      am
-      delighted to
-      announce that I have successfully obtained my CSS certification from CodeLibr! This achievement showcases my
-      ability to style and layout websites using CSS, and demonstrates my expertise in creating visually appealing and
-      user-friendly web experiences. With this certification, I have enhanced my skills in CSS and am confident in my
-      ability to design and develop responsive, engaging, and effective websites." </p>
+    <p class="certificatePara"><img src="cCss.png" loading="lazy" class="certificatesPng" alt="CSS certificate"> I have successfully obtained my CSS certification from CodeLibr!</p>
   </section>
+
   <section>
-    <p class="certificatePara"> <img src="mindlusterCss3.jpg" loading="lazy" class="certificatesPng"
-        alt="css certificate number 2">"Additionally, I have also earned my CSS certification from MindLuster! This
-      further
-      validates my proficiency in CSS and highlights my dedication to mastering the skills required to create dynamic,
-      responsive, and visually stunning websites. With this certification, I have reinforced my expertise in CSS and am
-      well-equipped to tackle complex web design projects with confidence." </p>
+    <p class="certificatePara"><img src="mindlusterCss3.jpg" loading="lazy" class="certificatesPng" alt="CSS certificate"> Additionally, I have also earned my CSS certification from MindLuster.</p>
   </section>
+
   <section>
-    <p class="certificatePara"> <img src="cJs.png" loading="lazy" class="certificatesPng"
-        alt="JavaScript certificate">"I have
-      successfully
-      obtained my JavaScript certification from CodeLiber, which further strengthens my web development skills. With
-      this expertise, I am now equipped to create even more engaging and interactive web applications for our users. My
-      certification demonstrates my commitment to delivering high-quality solutions and taking our website or
-      application to the next level." </p>
+    <p class="certificatePara"><img src="cJs.png" loading="lazy" class="certificatesPng" alt="JavaScript certificate"> I have successfully obtained my JavaScript certification from CodeLibr!</p>
   </section>
-  <section>
+
+  <footer>
     <h2 id="contact" class="H2">Contact Us</h2>
     <div id="contactUs">
-      <a href="tel:+923100094241" target="_blank"><img src="call.png" loading="lazy" id="callPng"
-          alt="call png"></a>
-
-      <a href="https://wa.me/+923100094241" target="_blank"><img src="WpPng.png" loading="lazy" id="WpPng"
-          alt="whatsApp png"></a>
-
-      <a href="mailto:wa9580670@gmail.com" target="_blank"><img src="EmailPng.png" loading="lazy" id="EmailPng"
-          alt="email png"></a>
+      <a href="tel:+923100094241" target="_blank"><img src="call.png" loading="lazy" id="callPng" alt="Call"></a>
+      <a href="https://wa.me/+923100094241" target="_blank"><img src="WpPng.png" loading="lazy" id="WpPng" alt="WhatsApp"></a>
+      <a href="mailto:wa9580670@gmail.com" target="_blank"><img src="EmailPng.png" loading="lazy" id="EmailPng" alt="Email"></a>
     </div>
-    <br><br>
-  </section>
+  </footer>
+
   <script src="script.js" type="text/javascript"></script>
 </body>
-
 </html>
