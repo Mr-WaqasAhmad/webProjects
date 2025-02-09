@@ -9,17 +9,19 @@
   <meta name="robots" content="index, follow">
   <meta name="author" content="Waqas Ahmed">
   
+  <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Waqas Ahmed's Portfolio">
   <meta property="og:description" content="Waqas Ahmed's portfolio showcases web development expertise in HTML, CSS, JavaScript, and responsive design.">
-  <meta property="og:image" content="me.jpg">
+  <meta property="og:image" content="https://mr-waqasahmad.github.io/webProjects/me.jpg">
   <meta property="og:url" content="https://mr-waqasahmad.github.io/webProjects/">
   <meta property="og:site_name" content="Waqas Ahmed's Portfolio">
   <meta property="og:type" content="website">
   
+  <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Waqas Ahmed's Portfolio">
   <meta name="twitter:description" content="Waqas Ahmed's portfolio showcases web development expertise in HTML, CSS, JavaScript, and responsive design.">
-  <meta name="twitter:image" content="me.jpg">
+  <meta name="twitter:image" content="https://mr-waqasahmad.github.io/webProjects/me.jpg">
 
   <title>Waqas Ahmed's Portfolio</title>
   <link rel="icon" href="favicon.ico">
@@ -27,13 +29,18 @@
 </head>
 
 <body>
-  <div id="loadingGif"></div>
+  <!-- Loading GIF -->
+  <div id="loadingGif">
+    <img src="loading.gif" alt="Loading...">
+  </div>
 
+  <!-- Header Section -->
   <header class="Header">
     <a href="#" id="logo"><img src="w.png" id="logoPng" alt="Website Logo"></a>
     <img src="cross.png" id="cross" alt="Close Menu Icon">
     <img src="menu.png" id="menu" alt="Open Menu Icon">
 
+    <!-- Navigation -->
     <nav id="navbar">
       <a href="#" id="link1" class="links">Home</a>
       <a href="#certificate" id="link3" class="links">Certificates</a>
@@ -41,6 +48,7 @@
     </nav>
   </header>
 
+  <!-- Main Content -->
   <main>
     <img src="waqas-ahmed-web-developer.jpg" loading="lazy" id="myPic" alt="Waqas Ahmad Picture">
     <section>
@@ -58,51 +66,43 @@
     </section>
   </main>
 
+  <!-- Project Sections -->
   <section>
     <h2 id="projectTwo" class="AllProject">(1) Gradient Generator</h2>
-    <p class="projectsPara">Welcome to our Gradient Generator Tool! This tool allows you to generate random gradient colors and copy the CSS code to use in your projects. Simply click on the color buttons to generate new colors, and the CSS code will be updated automatically. You can also click on the code display area to copy the CSS code to your clipboard. <br><br><a href="gradient.html" target="_blank" class="gamePlay">Start Web App</a></p>
+    <p class="projectsPara">Welcome to our Gradient Generator Tool! This tool allows you to generate random gradient colors and copy the CSS code to use in your projects. Simply click on the color buttons to generate new colors, and the CSS code will be updated automatically. You can also click on the code display area to copy the CSS code to your clipboard. <br><br><a href="gradient.html" target="_blank" rel="noopener noreferrer" class="gamePlay">Start Web App</a></p>
   </section>
 
   <section>
     <h2 id="projectThree" class="AllProject">(2) Simple Clock</h2>
-    <p class="projectsPara">Welcome to our Live Digital Clock! This simple yet elegant clock displays the current time in real-time, updating every second. The clock is displayed in a stylish and modern design. <br><br><a href="clock.html" target="_blank" class="gamePlay">Check Clock</a></p>
+    <p class="projectsPara">Welcome to our Live Digital Clock! This simple yet elegant clock displays the current time in real-time, updating every second. The clock is displayed in a stylish and modern design. <br><br><a href="clock.html" target="_blank" rel="noopener noreferrer" class="gamePlay">Check Clock</a></p>
   </section>
 
   <section>
     <h2 id="projectFour" class="AllProject">(3) Todo App</h2>
-    <p class="projectsPara">Welcome to our Todo App! This app allows you to create and manage your to-do lists effortlessly. Simply type in a new task and click the 'Add To List' button to add it to your list. Your tasks will be saved locally on your device. <br><br><a href="todoNote.html" target="_blank" class="gamePlay">Try Todo App</a></p>
+    <p class="projectsPara">Welcome to our Todo App! This app allows you to create and manage your to-do lists effortlessly. Simply type in a new task and click the 'Add To List' button to add it to your list. Your tasks will be saved locally on your device. <br><br><a href="todoNote.html" target="_blank" rel="noopener noreferrer" class="gamePlay">Try Todo App</a></p>
   </section>
 
+  <!-- Certificates Section -->
   <section>
     <h2 id="certificate" class="H2">Certificates</h2>
     <p class="certificatePara"><img src="CHtml.png" class="certificatesPng" alt="HTML certificate"> I have successfully obtained my HTML certification from CodeLibr!</p>
-  </section>
-
-  <section>
     <p class="certificatePara"><img src="mindlusterHtml5.jpg" class="certificatesPng" alt="HTML certificate"> I have also earned my HTML certification from MindLuster.</p>
-  </section>
-
-  <section>
     <p class="certificatePara"><img src="cCss.png" loading="lazy" class="certificatesPng" alt="CSS certificate"> I have successfully obtained my CSS certification from CodeLibr!</p>
-  </section>
-
-  <section>
     <p class="certificatePara"><img src="mindlusterCss3.jpg" loading="lazy" class="certificatesPng" alt="CSS certificate"> Additionally, I have also earned my CSS certification from MindLuster.</p>
-  </section>
-
-  <section>
     <p class="certificatePara"><img src="cJs.png" loading="lazy" class="certificatesPng" alt="JavaScript certificate"> I have successfully obtained my JavaScript certification from CodeLibr!</p>
   </section>
 
+  <!-- Footer Section -->
   <footer>
     <h2 id="contact" class="H2">Contact Us</h2>
     <div id="contactUs">
-      <a href="tel:+923100094241" target="_blank"><img src="call.png" loading="lazy" id="callPng" alt="Call"></a>
-      <a href="https://wa.me/+923100094241" target="_blank"><img src="WpPng.png" loading="lazy" id="WpPng" alt="WhatsApp"></a>
-      <a href="mailto:wa9580670@gmail.com" target="_blank"><img src="EmailPng.png" loading="lazy" id="EmailPng" alt="Email"></a>
+      <a href="tel:+923100094241" target="_blank" aria-label="Call Waqas Ahmed"><img src="call.png" loading="lazy" id="callPng" alt="Call"></a>
+      <a href="https://wa.me/+923100094241" target="_blank" aria-label="Message Waqas Ahmed on WhatsApp"><img src="WpPng.png" loading="lazy" id="WpPng" alt="WhatsApp"></a>
+      <a href="mailto:wa9580670@gmail.com" target="_blank" aria-label="Email Waqas Ahmed"><img src="EmailPng.png" loading="lazy" id="EmailPng" alt="Email"></a>
     </div>
   </footer>
 
+  <!-- Script -->
   <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
