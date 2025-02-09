@@ -58,21 +58,8 @@ body {
 
 @keyframes logoRotate {
   0% {
-    transform: rotate3d(0, 1, 0, 360deg)
+    transform: rotate3d(0deg)
   }
-
-  25% {
-    transform: rotate(0deg)
-  }
-
-  50% {
-    transform: rotate(0deg)
-  }
-
-  75% {
-    transform: rotate(0deg)
-  }
-
   100% {
     transform: rotate3d(0, 1, 0, 360deg)
   }
