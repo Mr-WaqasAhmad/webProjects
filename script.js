@@ -5,7 +5,9 @@ let loadingGif = document.getElementById("loadingGif");
 
 // Hide loading GIF after page loads
 window.addEventListener("load", () => {
-  if (loadingGif) loadingGif.style.display = "none";
+  if (loadingGif) {
+    loadingGif.style.display = "none";
+  }
 });
 
 // Navbar Toggle
@@ -27,10 +29,12 @@ if (menu && cross && nav) {
 document.querySelectorAll(".links, .scrollBtn").forEach(element => {
   element.addEventListener("click", (event) => {
     event.preventDefault();
-    let targetId = element.getAttribute("href").substring(1);
-    let targetElement = document.getElementById(targetId);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: "smooth" });
+    let targetId = element.getAttribute("href");
+    if (targetId) {
+      let targetElement = document.getElementById(targetId.substring(1));
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
     }
   });
 });
